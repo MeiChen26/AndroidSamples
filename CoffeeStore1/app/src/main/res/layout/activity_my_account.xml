@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:orientation="vertical" >
+    <LinearLayout android:id="@+id/userInfo_tag"
+        android:orientation="horizontal"
+        android:layout_height="110dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="1px"
+        android:background="@drawable/bg_layout_shape"
+        android:baselineAligned="false">
+        <ImageView android:id="@+id/userInfo_tag_Icon"
+            android:layout_gravity="center|left"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="8dp"
+            android:src="@drawable/m18_2"/>
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:orientation="vertical">
+            <TextView android:id="@+id/info_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textAlignment="center"
+                android:paddingBottom="8dp"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:textColor="#100f0f"
+                android:text="Apple苹果"/>
+            <View style="@style/bg_line"
+                android:gravity="center"
+                android:paddingBottom="10dp"/>
+            <TextView android:id="@+id/info_motto"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingTop="8dp"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:singleLine="true"
+                android:text="个性签名"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--下
+
+
+
+
+    面是重点-->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    <LinearLayout style="@style/wrap_layout">
+
+        <LinearLayout
+            style="@style/single_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0a0909"
+                android:textSize="16sp"
+                android:text="收货地址修改" >
+            </TextView>
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/name_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/name"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toRightOf="@id/name"
+                    android:text="地址：" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/age"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/name"
+                    android:layout_marginLeft="10dp"
+                    android:numeric="integer"
+                    android:text="" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/age_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/age"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toRightOf="@id/age"
+                    android:text="电话：" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/height"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/age"
+                    android:layout_marginLeft="10dip"
+                    android:numeric="decimal" >
+                </EditText>
+
+                <TextView
+                    android:id="@+id/height_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toRightOf="@id/height"
+                    android:text="邮编：" >
+                </TextView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="添加数据" >
+                </Button>
+
+                <Button
+                    android:id="@+id/query_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="全部显示" >
+                </Button>
+
+                <Button
+                    android:id="@+id/clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="清除显示" >
+                </Button>
+
+                <Button
+                    android:id="@+id/delete_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dip"
+                    android:text="全部删除" >
+                </Button>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout style="@style/wrap_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="9dp">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0a0909"
+            android:textSize="16sp"
+            android:text="个人信息查询" />
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="ID：" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/id_entry"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dip" >
+            </EditText>
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="ID删除" >
+            </Button>
+
+            <Button
+                android:id="@+id/query"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="ID查询" >
+            </Button>
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="ID更新" >
+            </Button>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询结果：" >
+        </TextView>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/display"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" >
+                </TextView>
+            </LinearLayout>
+        </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/wrap_layout">
+
+        <LinearLayout
+            style="@style/single_layout"
+            android:id="@+id/exit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="退出"
+                android:textColor="@color/text_clo"
+                android:textSize="16dp"
+                android:id="@+id/poweroff"/>
+
+            <ImageView style="@style/img_arrow"
+                android:src="@drawable/power_48px"
+                android:layout_marginRight="-10dp"
+                android:paddingRight="1dp"
+                android:layout_height="23dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

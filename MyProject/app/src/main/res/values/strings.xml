@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lifecycle</string>
+    <string name="next">跳到第二个activity</string>
+    <string name="secondtext">第二个activity</string>
+    <string name="app_name1">第二个activity</string>
+    <string name="back">返回</string>
+    <string name="label">数据传输</string>
+
+</resources>

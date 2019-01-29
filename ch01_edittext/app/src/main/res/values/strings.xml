@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ch01_edittext</string>
+    <string name="textview">名字</string>
+</resources>

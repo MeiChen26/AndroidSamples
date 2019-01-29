@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">运动能量消耗计算器</string>
+    <string-array name="sports">
+        <item>慢走</item>
+        <item>游泳</item>
+        <item>篮球</item>>
+        <item>跑步</item>
+        <item>自行车</item>
+    </string-array>
+    <string-array name="timeSpan">
+    <item>一小时</item>
+    <item>两小时</item>
+    <item>三小时</item>
+    <item>四小时</item>
+    <item>五小时</item>
+</string-array>>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="10dp"
+            android:text="请输入温度:"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"
+        android:maxLength="9"
+        android:singleLine="true" />
+
+    <RadioGroup
+        android:id="@+id/unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/unitF"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="华氏"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/unitC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="摄氏"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/unitK"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="绝对温度"
+            android:textSize="24sp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/degF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/charF"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/degC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/charC"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/degK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="K"
+        android:textSize="36sp"
+        android:gravity="center"/>
+
+</LinearLayout>
+

@@ -1,0 +1,200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:2:1-67:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/df86c31a0ab889f24a87f9fff12fe6cc/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a52e1b63d64b984c0aff2a6ae568bfc6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/f8ed5866c974d11d608adb6d290b17b9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/f2c3e7fcebb59d822d4955e0836974c1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/meitong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/7a6f29514bbf872c0b93f33af960624d/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:2:1-67:12
+	package
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/df86c31a0ab889f24a87f9fff12fe6cc/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/df86c31a0ab889f24a87f9fff12fe6cc/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a52e1b63d64b984c0aff2a6ae568bfc6/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a52e1b63d64b984c0aff2a6ae568bfc6/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/f8ed5866c974d11d608adb6d290b17b9/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/f8ed5866c974d11d608adb6d290b17b9/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/f2c3e7fcebb59d822d4955e0836974c1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/f2c3e7fcebb59d822d4955e0836974c1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/meitong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/7a6f29514bbf872c0b93f33af960624d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/meitong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/7a6f29514bbf872c0b93f33af960624d/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/df86c31a0ab889f24a87f9fff12fe6cc/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:11:5-69
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:11:22-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:13:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:14:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:15:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:16:22-76
+application
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:17:5-65:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/df86c31a0ab889f24a87f9fff12fe6cc/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/df86c31a0ab889f24a87f9fff12fe6cc/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a52e1b63d64b984c0aff2a6ae568bfc6/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/a52e1b63d64b984c0aff2a6ae568bfc6/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/f8ed5866c974d11d608adb6d290b17b9/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/f8ed5866c974d11d608adb6d290b17b9/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/f2c3e7fcebb59d822d4955e0836974c1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/meitong/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/f2c3e7fcebb59d822d4955e0836974c1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/meitong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/7a6f29514bbf872c0b93f33af960624d/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/meitong/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/7a6f29514bbf872c0b93f33af960624d/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:19:9-45
+	android:allowBackup
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:21:9-40
+activity#neusoft.soft.coffeestore.view.StartActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:22:9-28:20
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:22:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:26:27-74
+activity#neusoft.soft.coffeestore.view.CoffeeActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:29:9-61
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:29:19-49
+activity#neusoft.soft.coffeestore.view.Welcome
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:30:9-54
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:30:19-42
+activity#neusoft.soft.coffeestore.view.MainActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:31:9-33:68
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:32:13-41
+activity#neusoft.soft.coffeestore.view.ShopActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:34:9-59
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:34:19-47
+activity#net.adheringsoft.coffeeonline.viewflow.DetailActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:35:9-99
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:35:19-87
+activity#neusoft.soft.coffeestore.view.RegisterActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:36:9-38:73
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:38:13-61
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:37:13-45
+activity#neusoft.soft.coffeestore.view.ForgetPwdActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:39:9-41:74
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:41:13-62
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:40:13-46
+activity#neusoft.soft.coffeestore.view.CopyOfShopActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:42:9-65
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:42:19-53
+activity#neusoft.soft.coffeestore.view.ShopDetailActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:43:9-45:75
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:45:13-63
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:44:13-47
+activity#neusoft.soft.coffeestore.view.CoffeeCultrueActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:46:9-48:78
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:48:13-66
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:47:13-50
+activity#neusoft.soft.coffeestore.view.MyIntegralActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:49:9-65
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:49:19-53
+activity#neusoft.soft.coffeestore.view.FeedbackActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:50:9-63
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:50:19-51
+activity#neusoft.soft.coffeestore.view.LoginActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:51:9-60
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:51:19-48
+activity#neusoft.soft.coffeestore.view.NetActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:52:9-54:24
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:52:19-46
+activity#neusoft.soft.coffeestore.view.ManageAddressActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:55:9-57:73
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:57:13-61
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:56:13-50
+activity#neusoft.soft.coffeestore.view.MyAccountActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:58:9-55
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:58:19-52
+activity#neusoft.soft.coffeestore.view.UpdateShopActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:59:9-61:75
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:61:13-63
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:60:13-47
+activity#neusoft.soft.coffeestore.view.AddShopActivity
+ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:62:9-64:72
+	android:label
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:64:13-60
+	android:name
+		ADDED from /Users/meitong/AndroidStudioProjects/CoffeeStore1/app/src/main/AndroidManifest.xml:63:13-44

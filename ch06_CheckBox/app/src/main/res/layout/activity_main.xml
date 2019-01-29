@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="汉堡"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="薯条"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="可乐"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/chk4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="玉米浓汤"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="订购"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/showOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/o1"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/hanbao" />
+
+        <ImageView
+            android:id="@+id/o2"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/shutiao" />
+
+        <ImageView
+            android:id="@+id/o3"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/kele" />
+
+        <ImageView
+            android:id="@+id/o4"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/yumi" />
+
+    </LinearLayout>
+</LinearLayout>

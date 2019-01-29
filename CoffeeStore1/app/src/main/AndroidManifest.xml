@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="neusoft.soft.coffeestore.view"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CoffeeActivity"></activity>
+        <activity android:name=".Welcome"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"></activity>
+        <activity android:name=".ShopActivity"></activity>
+        <activity android:name="net.adheringsoft.coffeeonline.viewflow.DetailActivity"></activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register1"></activity>
+        <activity
+            android:name=".ForgetPwdActivity"
+            android:label="@string/title_activity_forget_pwd"></activity>
+        <activity android:name=".CopyOfShopActivity"></activity>
+        <activity
+            android:name=".ShopDetailActivity"
+            android:label="@string/title_activity_shop_detail"></activity>
+        <activity
+            android:name=".CoffeeCultrueActivity"
+            android:label="@string/title_activity_coffee_cultrue"></activity>
+        <activity android:name=".MyIntegralActivity"></activity>
+        <activity android:name=".FeedbackActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".NetActivity">
+
+            </activity>
+        <activity
+            android:name=".ManageAddressActivity"
+            android:label="@string/title_activity_test_main"></activity>
+        <activity android:name=".MyAccountActivity" />
+        <activity
+            android:name=".UpdateShopActivity"
+            android:label="@string/title_activity_update_shop"></activity>
+        <activity
+            android:name=".AddShopActivity"
+            android:label="@string/title_activity_add_shop"></activity>
+    </application>
+
+</manifest>

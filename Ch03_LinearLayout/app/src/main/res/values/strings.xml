@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ch03_LinearLayout</string>
+    <string name="hint">请输入姓氏</string>
+    <string name="lastname">姓：</string>
+    <string name="firstname">名：</string>
+    <string name="ok">确定</string>
+</resources>

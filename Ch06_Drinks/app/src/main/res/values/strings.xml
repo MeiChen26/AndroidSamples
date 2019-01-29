@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ch06_Drinks</string>
+    <string-array name="drinks">
+    <item>珍珠奶茶</item>
+        <item>柠檬汁</item>
+        <item>芒果汁</item>
+        <item>草莓奶昔</item>
+    </string-array>
+</resources>

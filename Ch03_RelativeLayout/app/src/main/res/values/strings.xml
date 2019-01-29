@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ch03_RelativeLayout</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="ok">OK</string>
+    <string name="user_name">username</string>
+</resources>

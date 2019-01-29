@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ch01_firstapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_enlarge">放大</string>
+</resources>

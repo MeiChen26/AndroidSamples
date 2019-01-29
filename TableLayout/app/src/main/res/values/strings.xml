@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TableLayout</string>
+    <string name="name">姓名</string>
+    <string name="school">学校</string>
+    <string name="major">专业</string>
+    <string name="name1">张三</string>
+    <string name="school1">北京医科大学</string>
+    <string name="major1">临床医学</string>
+    <string name="name2">李四</string>
+    <string name="school2">大连东软信息学院</string>
+    <string name="major2">计算机</string>
+</resources>
